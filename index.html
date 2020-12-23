@@ -12,18 +12,32 @@
  <hi>Rock Paper Scissors</h1>
 </section>
 
+  
+
+
+
+<div id="playerComputerChoice">
+  <h2 class="hidden" id="player">Player Choice</h2><h2 class="hidden" id="computer">Computer Choice</h2>
+</div>
     <container class="game" >
-        <img src="Images/rps-1.png" id="rock"></img>
-        <img src="Images/rps-2.png" id="paper"></img>
-        <img src="Images/rps-3.png" id="scissors"></img>
+     
+        <img src="Images/rps-rock.png" id="rock"></img>
+        <img src="Images/rps-paper.png" id="paper"></img>
+        <img src="Images/rps-scissors.png" id="scissors"></img>
+        
+        <img src="Images/rps-rock.png" id="playerChoice" class="hidden" >
         <span id ="outcome"  class="hidden"> </span>
-        <img src="Images/rps-1.png" id="computer guess" class="hidden" >
+        <img src="Images/rps-rock.png" id="computerChoice" class="hidden" >
     </container>
-<section class="play-again hidden">
-    <h4>Play again?</h4>
-</section>
+    <div id="buttonDiv">
+      <button class="play-again hidden">
+        <h4>Play again?</h4>
+    </button>
+    </div>
+
 </main>
+<script src="script.js"></script>
   </body>
-  <script src="script.js"></script>
+  
 </html>
 
